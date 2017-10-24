@@ -484,8 +484,9 @@ This tutorial has been tested using a Windows 7 computer running Home Premium SP
 
 ## Acknowledgements
 
-![ntuoss_logo.PNG](screenshots/ntuoss_logo.PNG?raw=true)
 Many thanks to [Chang Kai Lin, Ries](https://www.instagram.com/kailinchanggg/) for sacrificing her MacBook Air and loaning it to me indefinitely for testing, and the [NTU Open Source Society](https://github.com/ntuoss) committee for making this happen!
+
+![ntuoss_logo.png](screenshots/ntuoss_logo.png?raw=true)
 
 ## Resources
 

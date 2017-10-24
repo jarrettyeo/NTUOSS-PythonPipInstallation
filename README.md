@@ -424,6 +424,8 @@ ___
 
    Open Terminal and run `sudo easy_install pip`. This installs pip for both Python 2.7 and Python 3.6.x.
 
+   When prompted by the terminal, key in your password and hit the `enter` key. Remember, your password will be invisible and not show as you type. This is perfectly normal. 
+   
    Wait patiently for it to download and install pip.
 
    Once your Terminal is done with doing what it needs to, check for the pip3 version using:
@@ -438,9 +440,9 @@ ___
 
    Open [this](https://bootstrap.pypa.io/get-pip.py) in your browser.
 
-   If you are prompted to save the file, save it on your Desktop as the default filename (i.e. "get-pip.py"). Otherwise, if you see a bunch of text loaded in your browser, right-click and hit "Save as..." and save it on your Desktop as "get-pip.py".
+   If you are prompted to save the file, **save it on your Desktop** as the default filename (i.e. "get-pip.py"). Otherwise, if you see a bunch of text loaded in your browser, right-click and hit "Save as..." and **save it on your Desktop** as "get-pip.py".
 
-   Open up your Terminal (Command Prompt), type in `cd Desktop` and hit the `enter` key, then `sudo python get-pip.py` and the `enter` key. You will be prompted to enter your password. Just key it in (the Terminal will **NOT** show anything as you type, just type carefully). Wait patiently for it to download and install pip.
+   Open up your Terminal (Command Prompt), type in `cd Desktop` and hit the `enter` key, then `sudo python get-pip.py` and the `enter` key. You will be prompted to enter your password. Just key it in (the Terminal will **NOT** show anything as you type, just type carefully). Wait patiently for it to download and install pip. You can delete the "get-pip.py" file once the terminal is done.
 
    Once your Terminal is done with doing what it needs to, check for the pip version using:
 

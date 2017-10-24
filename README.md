@@ -9,7 +9,7 @@ ___
 
 ### Questions
 
-If you have a question regarding any of the instructions here, it's likely that it has been already addressed in [Section 4: FAQ & Troubleshooting](). You'll be able to find answers to the most commonly asked questions that we've came across and addressed.
+If you have a question regarding any of the instructions here, it's likely that it has been already addressed in [**Section 4: FAQ & Troubleshooting**](#section-4-faq--troubleshooting). You'll be able to find answers to the most commonly asked questions that we've came across and addressed.
 
 Alternatively, feel free to raise your hand any time during the pre-workshop or email your questions to [me](mailto:shanwei96@gmail.com).
 
@@ -20,7 +20,7 @@ ___
 
 ## Index
 
-**Section 0: Introduction**
+[**Section 0: Introduction**](#section-0-introduction)
 
 0.1 Workshop Requirements
 
@@ -40,7 +40,7 @@ ___
 
 0.5 Introduction to Basic Computer Terms
 
-**Section 1: Installing Python 3.6.x and pip**
+[**Section 1: Installing Python 3.6.x and pip**](#section-1-installing-python-36x-and-pip)
 
 1.0 Introduction
 
@@ -56,7 +56,7 @@ ___
 
 - 1.2.2 Verifying your Installation (Mac)
 
-**Section 2: Using Python and pip in the Terminal**
+[**Section 2: Using Python and pip in the Terminal**](#section-2-using-python-and-pip-in-the-terminal)
 
 2.0 Introduction
 
@@ -64,7 +64,7 @@ ___
 
 2.2 Using Python 3.6 on Mac OS X
 
-**Section 3: Downloading Packages with pip**
+[**Section 3: Downloading Packages with pip**](#section-3-downloading-packages-with-pip)
 
 3.0 Introduction
 
@@ -72,7 +72,7 @@ ___
 
 3.2 Using pip on Mac
 
-**Section 4: FAQ & Troubleshooting**
+[**Section 4: FAQ & Troubleshooting**](#section-4-faq--troubleshooting)
 
 ___
 
@@ -92,11 +92,11 @@ Thereafter, you can easily edit your Python files using the downloaded text edit
 
 You'll also need to have basic knowledge on using your computer's terminal / console, as well as basic computer terms.
 
-*If you already have Python 3.6.x (3.6, not 2.7) installed without pip and want to know how to install pip, please visit [Section 4: FAQ & Troubleshooting]().*
+*If you already have Python 3.6.x (3.6, not 2.7) installed without pip and want to know how to install pip, please visit [Section 4: FAQ & Troubleshooting](#section-4-faq--troubleshooting).*
 
 > **Note**<br>
 > The following sections provide a brief introduction to Python, pip, your computer's terminal, and basic computer terms *(coming soon!)* for the uninitiated.<br>
-> If you would like to skip to the installation instructions directly, go to [Section 1: Installing Python 3.6.x and pip]().
+> If you would like to skip to the installation instructions directly, go to [Section 1: Installing Python 3.6.x and pip](#section-1-installing-python-36x-and-pip).
 
 
 #### 0.2 Introduction to Python, Modules & Packages
@@ -123,7 +123,7 @@ In most tutorials, the terms "terminal", "console", "command line", "command pro
 
 In this tutorial, we will use "terminal" to refer to the aforementioned interface.
 
-## 0.4.1 Opening the Terminal on Windows
+#### 0.4.1 Opening the Terminal on Windows
 
 There are several ways of opening your Terminal (known more commonly as "command prompt") on Windows:
 
@@ -139,7 +139,7 @@ There are several ways of opening your Terminal (known more commonly as "command
 
    If the above doesn't work for you, while holding down the Windows key on your keyboard, press the "R" key, then release both keys. A window should appear. Key in "cmd.exe" and hit the enter key.
 
-## 0.4.2 Opening the Terminal on Mac
+#### 0.4.2 Opening the Terminal on Mac
 
 There are several ways of opening your Terminal on Mac:
 
@@ -159,7 +159,7 @@ There are several ways of opening your Terminal on Mac:
    > **Note**<br>
    > In the Utilities folder, you will find an application called "Console". This is different from the Terminal - the Console is a system logging tool on Mac.
 
-## 0.4.3 Overview of the Terminal
+#### 0.4.3 Overview of the Terminal
 
 Whenever your terminal is ready for you to input commands, you will see something along the lines of `C:\Users\YourName>` on Windows, or `YourName:~ YourName$` on Mac OS X.
 
@@ -167,7 +167,7 @@ Whenever your terminal is ready for you to input commands, you will see somethin
 
 ![mac_cmd_0.png](screenshots/mac_cmd_0.png?raw=true)
 
-## 0.4.4 Interpreting, Entering & Executing Commands in the Terminal
+#### 0.4.4 Interpreting, Entering & Executing Commands in the Terminal
 
 It is important to note that commands are case-sensitive (e.g. `-V` and `-v` are different) and typically run line-by-line, and every line of command is executed when you hit the `enter` or `return` key on your keyboard.
 
@@ -191,13 +191,13 @@ ___
 
 Installing Python and pip is fundamentally different on Windows and on Mac OS X.
 
-Click [here]() if you are a Windows user, and [here]() if you are on a Mac.
+Click [here](#111-steps-for-installing-python-36x-and-pip-on-windows) if you are a Windows user, and [here](#121-steps-for-installing-python-36x-and-pip-on-mac) if you are on a Mac.
 
 #### 1.1 Installing Python 3.6.x and pip on Windows
 
 As of 20 October 2017, installing a fresh copy of Python 3.6.x on Windows from the official Python website allows you to seamlessly install pip concurrently. Find out how below.
 
-## 1.1.1 Steps for Installing Python 3.6.x and pip on Windows
+#### 1.1.1 Steps for Installing Python 3.6.x and pip on Windows
 
 > **Note**<br>
 > Save yourself from loads of trouble later: **Do NOT rush through the installation**, please follow ALL steps below! You have been warned!
@@ -224,7 +224,7 @@ As of 20 October 2017, installing a fresh copy of Python 3.6.x on Windows from t
 
 4. Complete the installation & restart your computer if prompted.
 
-## 1.1.2 Verifying your Installation (Windows)
+#### 1.1.2 Verifying your Installation (Windows)
 
 1. Let's check if Python 3.6.x has been properly installed on your machine. Open your console and execute the following:
    `python -V`
@@ -249,9 +249,9 @@ As of 20 October 2017, installing a fresh copy of Python 3.6.x on Windows from t
 
    Did your console return you something similar like the screenshots above? That means you're good to go - both Python 3.6.x and pip have been installed on your machine!
 
-   *If you have problems installing Python and pip, or already have Python installed without pip and want to know how to install pip, please visit [Section 4: FAQ & Troubleshooting]().*
+   *If you have problems installing Python and pip, or already have Python installed without pip and want to know how to install pip, please visit [Section 4: FAQ & Troubleshooting](#section-4-faq--troubleshooting).*
 
-Once you are done, let's proceed to [Section 2: Using pip]().
+Once you are done, let's proceed to [Section 2: Using Python and pip in the Terminal](#section-2-using-python-and-pip-in-the-terminal).
 
 #### 1.2 Installing Python 3.6.x and pip on Mac
 
@@ -259,7 +259,7 @@ Mac OS X 10.8 and its successive versions come with Python 2.7 pre-installed by 
 
 As of 20 October 2017, installing a fresh copy of Python 3.6.x on Mac OS X from the official Python website allows you to seamlessly install pip concurrently. Find out how below.
 
-## 1.2.1 Steps for Installing Python 3.6.x and pip on Mac
+#### 1.2.1 Steps for Installing Python 3.6.x and pip on Mac
 
 > **Note**<br>
 > Save yourself from loads of trouble later: **Do NOT rush through the installation**, please follow ALL steps below! You have been warned!
@@ -286,7 +286,7 @@ As of 20 October 2017, installing a fresh copy of Python 3.6.x on Mac OS X from 
 
 5. Complete the installation & restart your computer if prompted.
 
-## 1.2.2 Verifying your Installation (Mac)
+#### 1.2.2 Verifying your Installation (Mac)
 
 1. Let's check if Python 3.6.x has been properly installed on your machine. Open your console and execute the following:
    `python3 -V`
@@ -311,9 +311,9 @@ As of 20 October 2017, installing a fresh copy of Python 3.6.x on Mac OS X from 
 
    Did your console return you something similar like the screenshots above? That means you're good to go - both Python 3.6.x and pip have been installed on your machine!
 
-   *If you have problems installing Python and pip, or already have Python installed without pip and want to know how to install pip, please visit [Section 4: FAQ & Troubleshooting]().*
+   *If you have problems installing Python and pip, or already have Python installed without pip and want to know how to install pip, please visit [Section 4: FAQ & Troubleshooting](#section-4-faq--troubleshooting).*
 
-Once you are done, let's proceed to [Section 2: Using pip]().
+Once you are done, let's proceed to [Section 2: Using Python and pip in the Terminal](#section-2-using-python-and-pip-in-the-terminal).
 
 ___
 
@@ -323,7 +323,7 @@ ___
 
 Using Python 3.6 and pip is different on Windows and on Mac OS X. Though you have already executed python commands, it is important for you to take note of the different commands that tutorials use and how you can smartly adapt your commands according to your version of python and your operating system.
 
-Let's get started. Click [here]() if you are a Windows user, and [here]() if you are on a Mac.
+Let's get started. Click [here](#21-using-python-36-on-windows) if you are a Windows user, and [here](#22-using-python-36-on-mac-os-x) if you are on a Mac.
 
 #### 2.1 Using Python 3.6 on Windows
 
@@ -333,7 +333,7 @@ In our workshops, if you are given the instruction to execute the command `pytho
 
 For example, if you are instructed to execute `python`, you key in `python` into your terminal and hit the `enter` key. To execute `pip install requests`, that would be `pip install requests` with `enter` once you are done. You do not need to execute any of these commands, they are meant for illustration.
 
-Let's head over to [Section 3: Downloading Packages with pip]().
+Let's head over to [Section 3: Downloading Packages with pip](#section-3-downloading-packages-with-pip).
 
 #### 2.2 Using Python 3.6 on Mac OS X
 
@@ -347,7 +347,7 @@ For example, if you are instructed to execute `python`, you key in `python3` int
 > The chances are that you will have 2 versions of Python in your machine: 2.7 that is the system default shipped with your Mac, as well as 3.6.x which we have just downloaded. **Because Python 2.7 is the default, `python` commands will run on Python 2.7. For us to write code and install packages for Python 3, we need to specify so using `python3` instead.**<br>
 > Reiteration: To run Python 3.6, Mac users need to execute `python3`. In a similar fashion, `pip` commands need to be changed to `pip3` so that the packages installed are for Python 3.6, not 2.7.
 
-Let's head over to [Section 3: Downloading Packages with pip]().
+Let's head over to [Section 3: Downloading Packages with pip](#section-3-downloading-packages-with-pip).
 ___
 
 ## Section 3: Downloading Packages with pip
@@ -356,7 +356,7 @@ ___
 
 Many of our workshops materials (as well as the countless others on the web) will instruct you to install packages using pip.
 
-The instructions vary depending on your operating system. Go to [Section 2.1]() if you are a Windows user, or [Section 2.2]() if you are using a Mac. Let's show you how.
+The instructions vary depending on your operating system. Go to [Section 3.1 Using pip on Windows](#31-using-pip-on-windows) if you are a Windows user, or [Section 3.2 Using pip on Mac](#32-using-pip-on-mac) if you are using a Mac. Let's show you how.
 
 #### 3.1 Using pip on Windows
 
@@ -375,7 +375,7 @@ and `beautifulsoup`
 
 For workshop tutorials, we will usually provide instructions on which packages to get using pip; in fact, we will most probably give you the pip commands that you should enter into your terminal as well.
 
-**As iterated in [Section 2.2 Using Python 3.6 on Mac OS X](), you need to add `3` behind your `python` and `pip` commands instead to tell your computer that you are executing commands using Python 3.6.**
+**As iterated in [Section 2.2 Using Python 3.6 on Mac OS X](#22-using-python-36-on-mac-os-x), you need to add `3` behind your `python` and `pip` commands instead to tell your computer that you are executing commands using Python 3.6.**
 
 For example, if you are given the following instruction to execute `pip install requests`, you need to open your terminal and key in **`pip3 install requests`** (note the additional `3`) and hit return/enter. As the command suggests, this command instructs pip3 to install the `requests` package for Python 3. All you need is to wait patiently for your machine to download and install the package.
 

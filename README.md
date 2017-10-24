@@ -2,7 +2,13 @@
 
 *by [Jarrett Yeo](https://github.com/jarrettyeo) for NTU Open Source Society*
 
-This pre-workshop is for the uninitiated and requires zero knowledge of Python and pip (well that's why you're probably here itfp).
+*Date last updated: 25 October 2017*
+___
+
+### **TL;DR**: If you are searching for **cut-to-the-chase instructions for installing Python 3.6 and pip**, click [**here**](#section-1-installing-python-36x-and-pip). That's the only section in this tutorial that you'll need, you can skip the rest.
+___
+
+This pre-workshop offers a comprehensive crash course for the uninitiated and requires zero knowledge of Python and pip (well that's why you're probably here itfp).
 
 **Disclaimer:** *This document is meant to get you up to speed with what you'll need for our workshops. Neither the author nor NTU OSS claims or owns the appended resources. We also do not accept any responsibility for things that happen to your machine because of this tutorial.*
 ___
@@ -103,7 +109,7 @@ You'll also need to have basic knowledge on using your computer's terminal / con
 
 Python is a popular programming language that emphasizes code readability and clarity. All Python files end with the .py extension (e.g. setup.py).
 
-While your machine's default text editor (e.g. Notepad) can view and edit .py files perfectly, editing code gets much easier and more visually appealing with good multi-purpose text editors such as Atom or Sublime. We'll guide you where to download one shortly.
+While your machine's default text editor (e.g. Notepad) can view and edit .py files perfectly, editing code gets much easier and more visually appealing with good multi-purpose text editors such as Atom or Sublime. That's why we got you to have one.
 
 Next, Modules are single .py files that contain Python definitions and statements while you can understand Packages as collections of modules for now.
 
@@ -121,7 +127,7 @@ You'll be learning how to use pip later.
 
 In most tutorials, the terms "terminal", "console", "command line", "command prompt", "bash console", "power shell" and "shell" are loosely used interchangeably even though they technically refer to different things. However, these terms most probably refer to the same text-based interface in which you can type and execute text commands on your computer. It is a powerful and flexible tool that allows developers to easily send and execute commands to your computer.
 
-In this tutorial, we will use "terminal" to refer to the aforementioned interface.
+In this tutorial, we will use "terminal" to refer to the aforementioned interface. Click [here](#041-opening-the-terminal-on-windows) if you are a Windows user, or [here](#042-opening-the-terminal-on-mac) if you are a Mac user.
 
 #### 0.4.1 Opening the Terminal on Windows
 
@@ -399,9 +405,9 @@ ___
 
    Open [this](https://bootstrap.pypa.io/get-pip.py) in your browser.
 
-   If you are prompted to save the file, save it on your Desktop as the default filename (i.e. "get-pip.py"). Otherwise, if you see a bunch of text loaded in your browser, right-click and hit "Save as..." and save it on your Desktop as "get-pip.py".
+   If you are prompted to save the file, **save it on your Desktop** as the default filename (i.e. "get-pip.py"). Otherwise, if you see a bunch of text loaded in your browser, right-click and hit "Save as..." and **save it on your Desktop** as "get-pip.py".
 
-   Open up your Terminal (Command Prompt), type in `cd Desktop` and hit the `enter` key, then `python get-pip.py` and the `enter` key. Wait patiently for it to download and install pip.
+   Open up your Terminal (Command Prompt), type in `cd Desktop` and hit the `enter` key, then `python get-pip.py` and the `enter` key. Wait patiently for it to install pip. You can delete the get-pip.py file once you are done.
 
    Once your Terminal is done with doing what it needs to, check for the pip version using:
 
@@ -484,7 +490,7 @@ This tutorial has been tested using a Windows 7 computer running Home Premium SP
 
 ## Acknowledgements
 
-Many thanks to [Chang Kai Lin, Reis](https://www.instagram.com/kailinchanggg/) for sacrificing her MacBook Air and loaning it to me indefinitely for testing, and the [NTU Open Source Society](https://github.com/ntuoss) committee for making this happen!
+Many thanks to [Chang Kai Lin, Ries](https://www.instagram.com/kailinchanggg/) for sacrificing her MacBook Air and loaning it to me indefinitely for testing, and the [NTU Open Source Society](https://github.com/ntuoss) committee for making this happen!
 
 ![ntuoss_logo.png](screenshots/ntuoss_logo.png?raw=true)
 

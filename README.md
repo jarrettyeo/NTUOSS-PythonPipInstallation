@@ -390,8 +390,8 @@ ___
 
 ## Section 4: FAQ & Troubleshooting
 
-### **Question:** I already have Python 3.6 but I need to install pip. How do I do that?
-### **Question:** I get the error “pip: command not found”. What should I do?
+#### **Question:** I already have Python 3.6 but I need to install pip. How do I do that?
+#### **Question:** I get the error “pip: command not found”. What should I do?
 
 #### *On Windows:*
 
@@ -446,7 +446,7 @@ ___
    > And if `sudo python3 get-pip.py` still doesn't work, the easiest way would be to uninstall Python and reinstall it by following the instructions above closely.
 
 
-### **Question:** When I try to run `python` or `python -V` or other commands beginning with `python` in my console, it returns me `‘python’ is not recognized as an internal or external command"`. Help?
+#### **Question:** When I try to run `python` or `python -V` or other commands beginning with `python` in my console, it returns me `‘python’ is not recognized as an internal or external command"`. Help?
 
    There are three main possibilities, please check from the first:
 
@@ -457,7 +457,7 @@ ___
    3. You did not install Python correctly. Please uninstall Python and re-install it.
 
 
-### **Question:** When I try to run `pip --version` or other commands beginning with `pip` or `pip install` in my console, it returns me `‘pip’ is not recognized as an internal or external command"`. Help?
+#### **Question:** When I try to run `pip --version` or other commands beginning with `pip` or `pip install` in my console, it returns me `‘pip’ is not recognized as an internal or external command"`. Help?
 
    There are two main possibilities, please check from the first:
 
@@ -466,19 +466,19 @@ ___
    2. You do not even have pip installed in the first place. Please go to the first question in this FAQ on installing pip.
 
 
-### **Question:** I have a version of Python installed that is not 3.6.x. What should I do?
+#### **Question:** I have a version of Python installed that is not 3.6.x. What should I do?
 
    The easiest way would be to uninstall your current version of Python and re-install it using the instructions above.
 
 
-### **Question:** When I try to run `$ pip` or `$ python` or other commands beginning with `$` in my terminal, it returns me `‘$’ is not recognized as an internal or external command"`. Help?
+#### **Question:** When I try to run `$ pip` or `$ python` or other commands beginning with `$` in my terminal, it returns me `‘$’ is not recognized as an internal or external command"`. Help?
 
    You need to take a look at the tutorial again. You do **NOT** enter `$` into your commands. They are meant to signpost to you that the commands that you are supposed to execute comes after itself.
 
    For instance, `$ pip` or `$ python` indicates that you should enter only `pip` or `python` respectively in your Terminal (with the `enter` key thereafter to execute the command).
 ___
 
-### Test Info
+## Test Info
 
 This tutorial has been tested using a Windows 7 computer running Home Premium SP1 and a MacBook Air running OS X Version 10.9.5. It is accurate as of 23 October 2017.
 

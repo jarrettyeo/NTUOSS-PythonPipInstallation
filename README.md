@@ -1,4 +1,5 @@
-# NTUOSS Python 3 & pip Installation Pre-Workshop
+# NTUOSS Python & pip Installation Pre-Workshop
+### Instructions for Installing Python 3.6 & pip for Windows & Mac
 
 *by [Jarrett Yeo](https://github.com/jarrettyeo) for NTU Open Source Society*
 

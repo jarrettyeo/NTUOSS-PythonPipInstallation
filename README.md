@@ -485,6 +485,11 @@ ___
    You need to take a look at the tutorial again. You do **NOT** enter `$` into your commands. They are meant to signpost to you that the commands that you are supposed to execute comes after itself.
 
    For instance, `$ pip` or `$ python` indicates that you should enter only `pip` or `python` respectively in your Terminal (with the `enter` key thereafter to execute the command).
+   
+#### **Question:** When I try to run `$ pip` on Windows 8 or 10, it returns me "PermissionError: [WinError 5] Access is denied". Help?
+
+   You need to run command prompt as an administrator. Do this by hitting the windows key, searching "cmd.exe", right-clicking on the program, and selecting "Run as Administrator". Click "OK" when prompted. You'll be able to install packages using pip thereafter.
+
 ___
 
 ## Test Info
